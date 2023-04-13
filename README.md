@@ -34,7 +34,7 @@ dependencies {
 SimpleIntents.from(MainActivity.this).openLink("https://google.com/");
 
 //Market Intent
-SimpleIntents.from(MainActivity.this).showInGooglePlay("com.whatsapp");
+SimpleIntents.from(MainActivity.this).showInMarket("com.yourpackage.name");
 
 //Share Intent
 SimpleIntents.from(MainActivity.this).shareText("Text", "Message");
