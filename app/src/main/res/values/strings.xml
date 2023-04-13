@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Simple Intents</string>
+
+    <string-array name="array_intents">
+        <item>Browser Intent</item>
+        <item>Market Intent</item>
+        <item>Email Intent</item>
+        <item>Dialer Intent</item>
+        <item>Share Intent</item>
+    </string-array>
+
+</resources>
