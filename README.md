@@ -31,19 +31,19 @@ dependencies {
 ### Usage
 ```java
 //Browser Intent
-SimpleIntents.from(MainActivity.this).openLink("https://google.com/");
+SimpleIntents.from(context).openLink("https://google.com/");
 
 //Market Intent
-SimpleIntents.from(MainActivity.this).showInMarket("com.yourpackage.name");
+SimpleIntents.from(context).showInMarket("com.yourpackage.name");
 
 //Share Intent
-SimpleIntents.from(MainActivity.this).shareText("Text", "Message");
+SimpleIntents.from(context).shareText("Text", "Message");
 
 //Phone Intent
-SimpleIntents.from(MainActivity.this).showDialNumber("1234567890");
+SimpleIntents.from(context).showDialNumber("1234567890");
 
 //Email Intent
-SimpleIntents.from(MainActivity.this).sendEmail("example@gmail.com", "This is subject", "Hello");
+SimpleIntents.from(context).sendEmail("example@gmail.com", "This is subject", "Hello");
 ```
 
 ## 💰 Donations
