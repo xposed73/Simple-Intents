@@ -24,26 +24,26 @@ dependencyResolutionManagement {
 #### Add this to your module (app) level build.gradle
 ```gradle
 dependencies {
-    implementation 'com.github.xposed73:Simple-Intents:Tag'
+    implementation 'com.github.xposed73:Simple-Intents:1.0.0'
  }
 ```
 
 ### Usage
 ```java
 //Browser Intent
-BrowserIntents.from(MainActivity.this).openLink("https://google.com/");
+SimpleIntents.from(MainActivity.this).openLink("https://google.com/");
 
 //Market Intent
-MarketIntents.from(MainActivity.this).showInGooglePlay("com.whatsapp");
+SimpleIntents.from(MainActivity.this).showInGooglePlay("com.whatsapp");
 
 //Share Intent
-ShareIntents.from(MainActivity.this).shareText("Text", "Message");
+SimpleIntents.from(MainActivity.this).shareText("Text", "Message");
 
 //Phone Intent
-PhoneIntents.from(MainActivity.this).showDialNumber("1234567890");
+SimpleIntents.from(MainActivity.this).showDialNumber("1234567890");
 
 //Email Intent
-EmailIntents.from(MainActivity.this).sendEmail("example@gmail.com", "This is subject", "Hello");
+SimpleIntents.from(MainActivity.this).sendEmail("example@gmail.com", "This is subject", "Hello");
 ```
 
 ## 💰 Donations
