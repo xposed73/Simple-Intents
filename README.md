@@ -43,7 +43,8 @@ SimpleIntents.from(context).shareText("Text", "Message");
 SimpleIntents.from(context).showDialNumber("1234567890");
 
 //Email Intent
-SimpleIntents.from(context).sendEmail("example@gmail.com", "This is subject", "Hello");
+String[] email = {"email@example.com" , "another@gmail.com"}; // you can add multiple emails
+SimpleIntents.from(MainActivity.this).sendEmail(email, "", "");
 ```
 
 ## 💰 Donations
